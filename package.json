@@ -1,5 +1,5 @@
 {
-  "name": "@xprofiler/all-in-one",
+  "name": "all-in-one-support-low-node",
   "version": "1.0.0",
   "description": "startup of all projects with one script",
   "main": "index.js",
@@ -21,18 +21,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/X-Profiler/all-in-one.git"
+    "url": "https://github.com/GZWZC/all-in-one-support-low-node.git"
   },
   "author": "hyj1991 <yeekwanvong@gmail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/X-Profiler/all-in-one/issues"
+    "url": "https://github.com/GZWZC/all-in-one-support-low-node"
   },
-  "homepage": "https://github.com/X-Profiler/all-in-one#readme",
+  "homepage": "https://github.com/GZWZC/all-in-one-support-low-node",
   "dependencies": {
-    "@xprofiler/console": "^1.0.5",
-    "@xprofiler/manager": "^1.0.1",
-    "@xprofiler/wsserver": "^1.0.3",
+    "xprofiler-console-support-low-node": "1.0.0",
+    "xtransit-manager-support-low-node": "1.0.0",
+    "xtransit-server-support-low-node": "1.0.0",
     "cross-env": "^7.0.3",
     "egg": "^3.5.0",
     "egg-xtransit": "^2.0.0",
